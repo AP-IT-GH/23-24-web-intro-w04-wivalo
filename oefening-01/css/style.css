@@ -4,3 +4,13 @@
     background-color: rgba(179, 255, 0, 0.2);
     border: 1px solid rgba(179, 255, 0, 1);
   }
+  .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl, .container-fluid {
+    background-color: #dff0d8; /* Light green background */
+    margin-top: 10px;
+    padding: 20px;
+    border: 2px solid #4cae4c; /* Darker green border */
+}
+header, footer {
+    padding: 10px 20px;
+    background-color: #f5f5f5; /* Light grey background */
+}

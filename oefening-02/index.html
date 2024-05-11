@@ -9,23 +9,44 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
 
     <!-- TODO: koppel de eigen css uit `style.css` aan de HTML. -->
-
+    <link rel="stylesheet" href="./css/style.css">
     
   </head>
-
-  <body class="py-4">
-    <header></header>
-    <nav></nav>
-    <main class="container">
-      <h1 class="mt-4">Bootstrap grid met 5 niveaus</h1>
-      <p>Het Bootstrap-rastersysteem heeft vijf niveaus en 6 breakpoints. Elke laag begint met een minimale viewport- of schermgrootte en is automatisch van toepassing op de grotere apparaten, tenzij deze wordt overschreven.</p>
-      <section class="row mb-3">
-        <article class="">.col-4</article>
-        <article class="">.col-4</article>
-        <article class="">.col-4</article>
-      </section>
-    </main>
-    <aside></aside>
-    <footer></footer>
+  <body>
+      <div class="container">
+          <header class="mb-4 text-center">
+              <h1>Bootstrap Grid met 5 Niveaus</h1>
+          </header>
+          <section>
+              <h2 class="mb-3">Het Bootstrap-rastersysteem heeft vijf niveaus en 6 breakpoints.</h2>
+              <p>Elke laag begint met een minimale viewport- of schermgrootte en is automatisch van toepassing op de grotere apparaten, tenzij deze wordt overschreven.</p>
+              <!-- Example grid using Bootstrap's classes and custom themed-grid-col -->
+              <div class="row">
+                  <div class="col-4 themed-grid-col">.col-4</div>
+                  <div class="col-4 themed-grid-col">.col-4</div>
+                  <div class="col-4 themed-grid-col">.col-4</div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-4 themed-grid-col">.col-sm-4</div>
+                  <div class="col-sm-4 themed-grid-col">.col-sm-4</div>
+                  <div class="col-sm-4 themed-grid-col">.col-sm-4</div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4 themed-grid-col">.col-md-4</div>
+                  <div class="col-md-4 themed-grid-col">.col-md-4</div>
+                  <div class="col-md-4 themed-grid-col">.col-md-4</div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-4 themed-grid-col">.col-lg-4</div>
+                  <div class="col-lg-4 themed-grid-col">.col-lg-4</div>
+                  <div class="col-lg-4 themed-grid-col">.col-lg-4</div>
+              </div>
+              <div class="row">
+                  <div class="col-xl-4 themed-grid-col">.col-xl-4</div>
+                  <div class="col-xl-4 themed-grid-col">.col-xl-4</div>
+                  <div class="col-xl-4 themed-grid-col">.col-xl-4</div>
+              </div>
+          </section>
+      </div>
   </body>
-</html>
+  </html>
